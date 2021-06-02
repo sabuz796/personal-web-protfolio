@@ -113,42 +113,60 @@ a {
 .work h3 {
   margin: 20px 0;
 }
-/* .chat-button {
-  background-color: #5d69e9;
-  padding: 40px 60px;
+.skills img {
+  width: 15%;
+  margin: 40px 30px;
 }
-
-footer span {
-  padding: 10px 10px;
-  display: inline-block;
-  background-color: #ff8063;
-  border-radius: 5px;
-  margin-left: 80px;
-  margin-right: 40px;
-}
-footer {
+.skill h1 {
   text-align: center;
-  margin: 40px 0;
-  margin-left: 100px;
-} */
-footer img {
+  margin: 30px;
+  font-size: 30px;
+  color: #ff8063;
+  font-weight: 700;
+}
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container img {
   width: 40%;
 }
-footer {
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 40px 0;
   position: relative;
 }
-footer h1 {
+.container h1 {
   position: absolute;
   top: 60px;
   left: 480px;
   color: white;
 }
-footer a {
+.container a {
   position: absolute;
   top: 50px;
   right: 500px;
+}
+.icons img {
+  width: 2%;
+  margin: 0 10px;
+}
+footer {
+  text-align: center;
+}
+footer p {
+  color: dimgray;
+  margin-top: 60px;
+}
+footer h2 {
+  margin: 20px 0;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
 }
