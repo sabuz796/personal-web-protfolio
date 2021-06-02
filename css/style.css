@@ -113,3 +113,42 @@ a {
 .work h3 {
   margin: 20px 0;
 }
+/* .chat-button {
+  background-color: #5d69e9;
+  padding: 40px 60px;
+}
+
+footer span {
+  padding: 10px 10px;
+  display: inline-block;
+  background-color: #ff8063;
+  border-radius: 5px;
+  margin-left: 80px;
+  margin-right: 40px;
+}
+footer {
+  text-align: center;
+  margin: 40px 0;
+  margin-left: 100px;
+} */
+footer img {
+  width: 40%;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+  position: relative;
+}
+footer h1 {
+  position: absolute;
+  top: 60px;
+  left: 480px;
+  color: white;
+}
+footer a {
+  position: absolute;
+  top: 50px;
+  right: 500px;
+}
